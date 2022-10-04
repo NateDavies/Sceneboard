@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Soundboard</title>
+<link rel="icon" type="image/x-icon" href="images/stormBlend.jpg">
+<link href='sceneboard.css' rel='stylesheet'> 
+<style>
+</style>
+</head>
+<body id="body">
+
+  <div id='sceneMasterContainer' class='show'>
+
+    <div id='sceneVolumeContainer'>
+      <img src='images/volumeOn.png' id='sceneMuteButton' class='on muteButton'>
+      <input type='range' id='sceneMasterVolume' class='volume'>
+    </div>
+  
+    <header>
+      <h1>Choose a Blend:</h1>
+    </header>
+  
+      <div id='mainSceneContainer'>
+        <div id='stormContainer' class='scene'>
+          <img src='images/stormBlend.jpg' id='stormButton' class='sceneImage'>
+          <audio id='stormAudio' class="sceneAudio" loop>                                                       
+            <source src='audio/stormBlend.wav' type='audio/mpeg'>
+          </audio>
+        </div>
+  
+        <div id='forestContainer' class='scene'>
+          <img src='images/forestBlend.jpg' id='forestButton' class='sceneImage'>
+          <audio id='forestAudio' class="sceneAudio" loop>
+            <source src='audio/forestBlend.wav' type='audio/mpeg'>
+          </audio>
+        </div>
+  
+        <div id='nightContainer' class='scene'>
+          <img src='images/nightBlend.jpg' id='nightButton' class='sceneImage'>
+          <audio id='nightAudio' class="sceneAudio" loop>
+            <source src='audio/nightBlend.wav' type='audio/mpeg'>
+          </audio>
+        </div>
+        
+        <div id='summerContainer' class='scene'>
+          <img src='images/summerBlend.jpg' id='summerButton' class='sceneImage'>
+          <audio id='summerAudio' class="sceneAudio" loop>
+            <source src='audio/summerBlend.wav' type='audio/mpeg'>
+          </audio>
+        </div>
+      </div>
+
+      <h2 id='or'>or...</h2>
+  
+      <a href='makeYourOwn.html'><button id='makeYourOwn'>Create your Own!</button></a>
+
+  </div>
+
+  <button id='hideMaster'>Hide Content</button>
+
+  
+  <script src="sceneboard.js"></script>
+</body>
+</html>
+
+
+

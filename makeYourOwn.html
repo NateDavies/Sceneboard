@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Soundboard</title>
+<link rel="icon" type="image/x-icon" href="images/stormBlend.jpg">
+<link href='sceneboard.css' rel='stylesheet'> 
+<style>
+</style>
+</head>
+<body id="body">
+    <div id='indiMasterContainer' class='masterContainer show'>      
+
+      <a href='index.html'><button id='backButton'>Go Back</button></a>
+      
+      <h2>Select Sounds</h2>  
+
+      <div id='mainIndiContainer'>
+        <div id='thunderContainer' class='scene'>
+          <img src='images/thunderSound.jpg' id='thunderButton' class='indiImage'>
+          <audio id='thunderAudio' class="indiAudio" loop>                                                  
+            <source src='audio/stormBlend.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='thunderMuteButton' class='on muteButton'>
+            <input type='range' id='thunderVolume' class='indiVolume'>
+          </div>
+        </div>
+  
+        <div id='campfireContainer' class='scene'>
+          <img src='images/campfireSound.jpg' id='campfireButton' class='indiImage'>
+          <audio id='campfireAudio' class="indiAudio" loop>
+            <source src='audio/campfireSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='campfireMuteButton' class='on muteButton'>
+            <input type='range' id='campfireVolume' class='indiVolume'>
+          </div>
+        </div>
+  
+        <div id='catpurringContainer' class='scene'>
+          <img src='images/catpurringSound.jpg' id='catpurringButton' class='indiImage'>
+          <audio id='catpurringAudio' class="indiAudio" loop>
+            <source src='audio/catpurringSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='catpurringMuteButton' class='on muteButton'>
+            <input type='range' id='catpurringVolume' class='indiVolume'>
+          </div>
+        </div>
+        
+        <div id='oceanContainer' class='scene'>
+          <img src='images/oceanSound.jpg' id='oceanButton' class='indiImage'>
+          <audio id='oceanAudio' class="indiAudio" loop>
+            <source src='audio/OceanSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='oceanMuteButton' class='on muteButton'>
+            <input type='range' id='oceanVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='coffeeshopContainer' class='scene'>
+          <img src='images/coffeeshopSound.jpg' id='coffeeshopButton' class='indiImage'>
+          <audio id='coffeeshopAudio' class="indiAudio" loop>
+            <source src='audio/coffeeshopSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='coffeeshopMuteButton' class='on muteButton'>
+            <input type='range' id='coffeeshopVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='windContainer' class='scene'>
+          <img src='images/windSound.jpg' id='windButton' class='indiImage'>
+          <audio id='windAudio' class="indiAudio" loop>
+            <source src='audio/windSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='windMuteButton' class='on muteButton'>
+            <input type='range' id='windVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='owlContainer' class='scene'>
+          <img src='images/owlSound.jpg' id='owlButton' class='indiImage'>
+          <audio id='owlAudio' class="indiAudio" loop>
+            <source src='audio/owlSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='owlMuteButton' class='on muteButton'>
+            <input type='range' id='owlVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='grandfatherclockContainer' class='scene'>
+          <img src='images/grandfatherclockSound.jpg' id='grandfatherclockButton' class='indiImage'>
+          <audio id='grandfatherclockAudio' class="indiAudio" loop>
+            <source src='audio/grandfatherclockSound.mp3' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='grandfatherclockMuteButton' class='on muteButton'>
+            <input type='range' id='grandfatherclockVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='seagullContainer' class='scene'>
+          <img src='images/seagullSound.jpg' id='seagullButton' class='indiImage'>
+          <audio id='seagullAudio' class="indiAudio" loop>
+            <source src='audio/seagullSound.mp3' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='seagullMuteButton' class='on muteButton'>
+            <input type='range' id='seagullVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='studymusicContainer' class='scene'>
+          <img src='images/studymusicSound.jpg' id='studymusicButton' class='indiImage'>
+          <audio id='studymusicAudio' class="indiAudio" loop>
+            <source src='audio/studymusicSound.mp3' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='studymusicMuteButton' class='on muteButton'>
+            <input type='range' id='studymusicVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='boxfanContainer' class='scene'>
+          <img src='images/boxfanSound.jpg' id='boxfanButton' class='indiImage'>
+          <audio id='boxfanAudio' class="indiAudio" loop>
+            <source src='audio/boxfanSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='boxfanMuteButton' class='on muteButton'>
+            <input type='range' id='boxfanVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='windchimesContainer' class='scene'>
+          <img src='images/windchimesSound.jpg' id='windchimesButton' class='indiImage'>
+          <audio id='windchimesAudio' class="indiAudio" loop>
+            <source src='audio/windchimesSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='windchimesMuteButton' class='on muteButton'>
+            <input type='range' id='windchimesVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='babblingbrookContainer' class='scene'>
+          <img src='images/babblingbrookSound.jpg' id='babblingbrookButton' class='indiImage'>
+          <audio id='babblingbrookAudio' class="indiAudio" loop>
+            <source src='audio/babblingbrookSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='babblingbrookMuteButton' class='on muteButton'>
+            <input type='range' id='babblingbrookVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='skilletContainer' class='scene'>
+          <img src='images/skilletSound.jpg' id='skilletButton' class='indiImage'>
+          <audio id='skilletAudio' class="indiAudio" loop>
+            <source src='audio/skilletSound.mp3' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='skilletMuteButton' class='on muteButton'>
+            <input type='range' id='skilletVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='zenContainer' class='scene'>
+          <img src='images/zenSound.jpg' id='zenButton' class='indiImage'>
+          <audio id='zenAudio' class="indiAudio" loop>
+            <source src='audio/zenSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='zenMuteButton' class='on muteButton'>
+            <input type='range' id='zenVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='citynoiseContainer' class='scene'>
+          <img src='images/citynoiseSound.jpg' id='citynoiseButton' class='indiImage'>
+          <audio id='citynoiseAudio' class="indiAudio" loop>
+            <source src='audio/citynoiseSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='citynoiseMuteButton' class='on muteButton'>
+            <input type='range' id='citynoiseVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='brownnoiseContainer' class='scene'>
+          <img src='images/brownnoiseSound.jpg' id='brownnoiseButton' class='indiImage'>
+          <audio id='brownnoiseAudio' class="indiAudio" loop>
+            <source src='audio/brownnoiseSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='brownnoiseMuteButton' class='on muteButton'>
+            <input type='range' id='brownnoiseVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='rainContainer' class='scene'>
+          <img src='images/rainSound.jpg' id='rainButton' class='indiImage'>
+          <audio id='rainAudio' class="indiAudio" loop>
+            <source src='audio/rainSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='rainMuteButton' class='on muteButton'>
+            <input type='range' id='rainVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='birdchirpingContainer' class='scene'>
+          <img src='images/birdchirpingSound.jpg' id='birdchirpingButton' class='indiImage'>
+          <audio id='birdchirpingAudio' class="indiAudio" loop>
+            <source src='audio/birdchirpingSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='birdchirpingMuteButton' class='on muteButton'>
+            <input type='range' id='birdchirpingVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='officenoiseContainer' class='scene'>
+          <img src='images/officenoiseSound.jpg' id='officenoiseButton' class='indiImage'>
+          <audio id='officenoiseAudio' class="indiAudio" loop>
+            <source src='audio/officenoiseSound.mp3' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='officenoiseMuteButton' class='on muteButton'>
+            <input type='range' id='officenoiseVolume' class='indiVolume'>
+          </div>
+        </div>
+
+        <div id='cricketschirpingContainer' class='scene'>
+          <img src='images/cricketschirpingSound.jpg' id='cricketschirpingButton' class='indiImage'>
+          <audio id='cricketschirpingAudio' class="indiAudio" loop>
+            <source src='audio/cricketschirpingSound.wav' type='audio/mpeg'>
+          </audio>
+          <div class='indiVolumeContainer'>
+            <img src='images/volumeOn.png' id='cricketschirpingMuteButton' class='on muteButton'>
+            <input type='range' id='cricketschirpingVolume' class='indiVolume'>
+          </div>
+        </div>
+      </div>
+
+      <h2>Select Background</h2>
+
+      <div id='backgroundContainer'>
+          <img src='images/storm.jpg' id='stormBackground' class='background'>
+          <img src='images/lava.jpg' id='lavaBackground' class='background'>
+          <img src='images/forest.jpg' id='forestBackground' class='background'>
+          <img src='images/space.jpg' id='spaceBackground' class='background'>
+          <img src='images/summer.jpg' id='summerBackground' class='background'>
+          <img src='images/underwater.jpg' id='underwaterBackground' class='background'>
+          <img src='images/night.jpg' id='nightBackground' class='background'>
+          <img src='images/snow.jpg' id='snowBackground' class='background'>
+      </div>
+    </div>
+
+    <button id='hideMaster'>Hide Content</button>
+
+  <script src="makeYourOwn.js"></script>
+</body>
+</html>
+
+
+
+
+

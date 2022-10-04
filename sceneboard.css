@@ -1,0 +1,540 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/mainBackground2.jpg");
+    background-size: 100%;
+}
+
+img {
+    cursor: pointer;
+    border: 4px solid white;
+    border-radius: 6px;
+}
+
+img:hover {
+    opacity: 50%;
+}
+
+#hideMaster:hover {
+    background-color: rgb(82, 93, 193, .5);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px black;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hideMaster {
+    cursor: pointer;
+    padding: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 10px;
+    background-color: rgb(82, 93, 193);
+    color: white;
+}
+
+#sceneMasterContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+#sceneVolumeContainer {
+    display: flex;
+}
+
+.volume {
+    cursor: pointer;
+}
+
+.muteButton {
+    padding-right: 5px;
+    padding-top: 3px;
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+
+#mainSceneContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.scene {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sceneImage {
+    width: 110px;
+    height: 110px;
+}
+
+#or {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px black;
+    font-style: italic;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+#makeYourOwn {
+    padding: 24px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 0px;
+    background-color: rgb(82, 93, 193);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+#makeYourOwn:hover {
+    background-color: rgb(82, 93, 193, .5);
+}
+    
+
+
+/* ------------------------------Make Your Own--------------------------------- */
+
+#backButton {
+    left: 0;
+    position: fixed;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(82, 93, 193);
+    color: white;
+
+}
+
+#backButton:hover {
+    background-color: rgb(82, 93, 193, .5);
+}
+    
+#indiMasterContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+#mainIndiContainer {   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 30px 15px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.indiImage {
+    width: 70px;
+    height: 70px;
+}
+
+.indiVolumeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.indiVolume {
+    width: 50%;
+}
+
+#backgroundContainer {
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.background {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* .sceneVolume {
+    width: 50px;
+    display: none;
+} */
+
+
+
+
+
+
+/* ----------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 351px) {
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        padding: 0px;
+        align-self: center;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+    }
+        
+
+    #mainSceneContainer {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .sceneImage {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    #indiMasterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+    #mainIndiContainer {   
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 30px 30px 15px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+    }
+    
+    .indiImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .indiVolume {
+        width: 80px;
+    }
+    
+    .background {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+}
+/*--------------------------------------------------------------------*/
+@media screen and (min-width: 351px) and (max-width: 500px) {
+
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        padding: 0px;
+        align-self: center;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+    }
+        
+
+    #mainSceneContainer {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .sceneImage {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    #indiMasterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+    #mainIndiContainer {   
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 30px 30px 15px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+    }
+    
+    .indiImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .indiVolume {
+        width: 80px;
+    }
+    
+    #backgroundContainer {
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .background {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+
+}
+
+/*--------------------------------------------------------------------------*/
+@media screen and (min-width: 500px) and (max-width: 650px) {
+
+
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        padding: 0px;
+        align-self: center;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+    }
+        
+
+    #mainSceneContainer {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .sceneImage {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    #indiMasterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+    #mainIndiContainer {   
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 30px 30px 15px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+    }
+    
+    .indiImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .indiVolume {
+        width: 80px;
+    }
+    
+    #backgroundContainer {
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .background {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+
+
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (min-width: 650px) and (max-width: 752px) {
+
+
+
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        padding: 0px;
+        align-self: center;
+    }
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 6px black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    header {
+        display: flex;
+        align-items: center;
+    }
+        
+
+    #mainSceneContainer {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .sceneImage {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    #indiMasterContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+    #mainIndiContainer {   
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 30px 30px 15px 30px;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+    }
+    
+    .indiImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .indiVolume {
+        width: 80px;
+    }
+    
+    #backgroundContainer {
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .background {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+
+
+
+}
