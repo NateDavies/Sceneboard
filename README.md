@@ -8,13 +8,12 @@ by selecting individual sounds with adjustable volumes and also allows them to s
 There is a "Hide Content" button added so that the visibility of the
 buttons and text can be toggled on and off so that the sounds and images can be enjoyed without obstruction.
 
-![screenshot3 jpg](https://user-images.githubusercontent.com/100798218/194229868-c0e0b4bb-92de-450b-b0c9-be09538f2c7e.png)
+![screenshot3](https://user-images.githubusercontent.com/100798218/194231767-4fb7fd5c-a80c-41ae-afac-71966243a9ac.png)
 
-![screenshot1 jpg](https://user-images.githubusercontent.com/100798218/194229932-d9d148a7-1e14-4a40-8ff7-bc3672a5f743.png)
+![screenshot1](https://user-images.githubusercontent.com/100798218/194231816-64418b9e-f19a-4ddc-b361-ecb2c230acab.png)
 
-![screenshot2 jpg](https://user-images.githubusercontent.com/100798218/194230017-903aeba3-fb41-4015-93bf-fa572ccc79e1.png)
+![screenshot4](https://user-images.githubusercontent.com/100798218/194231841-0e679f62-9001-4610-83a9-712d07e39b35.png)
 
-![screenshot4 jpg](https://user-images.githubusercontent.com/100798218/194230043-ce96bccd-6ba1-4191-84e0-675bb199e5a2.png)
+![screenshot2](https://user-images.githubusercontent.com/100798218/194231862-51318d7e-7a64-4b5e-b1db-ecb0cabb5471.png)
 
-![screenshot5 jpg](https://user-images.githubusercontent.com/100798218/194230165-999db306-9fa3-40ae-9fe2-d579197e2037.png)
 
